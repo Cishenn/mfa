@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 五四
+subtitle: '纪念五四'
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Cishenn Lee
+language: zh_CN
 timezone: ''
 
 # URL
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: cyanstyle
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

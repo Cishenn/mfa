@@ -1,2 +1,0 @@
-# mfa
-May Fourth Anniversary

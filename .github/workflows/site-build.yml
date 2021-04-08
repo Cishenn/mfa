@@ -39,6 +39,8 @@ jobs:
           cd public
           git clone --bare --depth 1 --branch gh-pages https://github.com/${{ github.repository }}.git .git
           export GIT_WORK_TREE=.
+          git config --local user.name github-actions
+          git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add . && git commit -m "feat: automated site build $(date)"
 
       - name: Collect artifact

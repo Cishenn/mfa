@@ -31,7 +31,7 @@ jobs:
         run: npm install
 
       - name: Generate static pages and assets
-        run: hexo generate
+        run: npm run build
 
       - name: Collect artifact
         uses: actions/upload-artifact@v2

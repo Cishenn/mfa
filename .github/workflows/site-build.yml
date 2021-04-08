@@ -47,3 +47,4 @@ jobs:
           BRANCH: gh-pages
           FOLDER: public
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: 'feat: automated site build from commit {sha}'

@@ -132,8 +132,8 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/404.jpg
-  post_page: /img/404.jpg
+  flink: /img/404-not-found.jpg
+  post_page: /img/404-not-found.jpg
 
 # A simple 404 page
 error_404:

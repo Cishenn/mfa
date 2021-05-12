@@ -54,5 +54,5 @@ jobs:
           REPO: self
           BRANCH: gh-pages
           FOLDER: public
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_ACTOR_PAT }}
           MESSAGE: 'feat: automated site build from commit {sha}'

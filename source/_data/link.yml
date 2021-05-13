@@ -1,27 +1,23 @@
-- class_name: 友情鏈接
-  class_desc: 那些人，那些事
+- class_name: 参考资料
+  class_desc: 可以访问下面的网站，以获取更多信息，继续深入学习党史。
   link_list:
-    - name: JerryC
-      link: https://jerryc.me/
-      avatar: https://jerryc.me/image/avatar.png
-      descr: 今日事,今日畢
-    - name: Hexo
-      link: https://hexo.io/zh-tw/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、簡單且強大的網誌框架
-
-- class_name: 網站
-  class_desc: 值得推薦的網站
-  link_list:
-    - name: Youtube
-      link: https://www.youtube.com/
-      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
-      descr: 視頻網站
-    - name: Weibo
-      link: https://www.weibo.com/
-      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
-      descr: 中國最大社交分享平台
-    - name: Twitter
-      link: https://twitter.com/
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
+    - name: 共产党员网
+      link: https://www.12371.cn/
+      avatar: https://p4.img.cctvpic.com/photoAlbum/templet/common/DEPA1356314678315297/sy_dyw377.ico
+      descr: 中央组织部主管、中组部党员教育中心主办、央视网承办的党员教育平台
+    - name: 新华社
+      link: http://www.xinhuanet.com/
+      avatar: http://www.xinhuanet.com/2021homepro/images/logo.png
+      descr: 国内主要重点新闻网站
+    - name: 人民网
+      link: http://www.people.com.cn/
+      avatar: http://www.people.com.cn/favicon.ico
+      descr: 世界十大报纸之一《人民日报》建设的以新闻为主的大型网上信息发布平台，也是互联网上最大的中文和多语种新闻网站之一。
+    - name: 中国共产党新闻网
+      link: http://cpc.people.com.cn/
+      avatar: http://cpc.people.com.cn/favicon.ico
+      descr: 人民网主办，最集中、最系统、最全面地宣传和介绍中国共产党的权威网站。
+    - name: 光明网
+      link: https://www.gmw.cn/
+      avatar: https://www.gmw.cn/favicon.ico
+      descr: 光明日报在网络时代的新延伸，也是国内唯一一家定位于思想理论领域的中央重点新闻网站。

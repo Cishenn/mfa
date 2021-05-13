@@ -11,7 +11,6 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  留言板: /messageboard/ || fa fa-paper-plane
   友情链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -39,8 +38,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/cishenn || Github
-  fas fa-envelope: 740804059@qq.com || Email
+  fab fa-github: https://github.com/Cishenn/mfa || 本站的 GitHub 仓库
+  fas fa-envelope: mailto:740804059@qq.com || Email
   # fab fa-github: https://github.com/xxxxx || Github
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
@@ -181,10 +180,10 @@ toc:
   style_simple: false
 
 post_copyright:
-  enable: true
-  decode: false
-  license: CC BY-NC-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  enable: false
+  # decode: false
+  # license: CC BY-NC-SA 4.0
+  # license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Sponsor/reward
 reward:
@@ -232,7 +231,7 @@ addThis:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,weibo,qq
 
 # AddToAny
 # https://www.addtoany.com/
@@ -388,10 +387,10 @@ crisp:
 # --------------------------------------
 footer:
   owner:
-    enable: true
-    since: 2020
-  custom_text:
-  copyright: true # Copyright of theme and framework
+    enable: false
+    # since: 2020
+  custom_text: '&copy; 2021 至今 合肥工业大学 杨翰林 李闯 耿源 黄宇<br>基于 Hexo 框架与 Butterfly 主题建设'
+  copyright: false # Copyright of theme and framework
 
 # Analysis
 # --------------------------------------
@@ -468,18 +467,18 @@ yandex_site_verification:
 
 theme_color:
   enable: true
-  main: "#333333"
+  main: "#B20A0A"
   paginator: "#333333"
-  button_hover: "#FF7242"
-  text_selection: "#00c4b6"
-  link_color: "#333333"
+  button_hover: "#DE2910"
+  text_selection: "#DE2910"
+  link_color: "#DE2910"
   meta_color: "#858585"
   hr_color: "#A4D8FA"
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
-  toc_color: "#333333"
-  blockquote_padding_color: "#49b1f5"
-  blockquote_background_color: "#49b1f5"
+  toc_color: "#B20A0A"
+  blockquote_padding_color: "#AC976E"
+  blockquote_background_color: "#FFDD93"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -500,7 +499,7 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -635,13 +634,13 @@ aside:
     enable: true
     description: 五四青年
     button:
-      enable: true
-      icon: fab fa-github
-      text: 反馈
-      link: https://github.com/cishenn
+      enable: false
+      # icon: fab fa-github
+      # text: 反馈
+      # link: https://github.com/cishenn
   card_announcement:
     enable: true
-    content: 该博客系第五届新媒体大赛第四期作品
+    content: 本站点系合肥工业大学第五届新媒体大赛第四期作品。详见<a href="about/">关于</a>页。
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

@@ -45,7 +45,7 @@ jobs:
           # Endpoint of "Access over Internet", e.g. oss-cn-hangzhou.aliyuncs.com
           oss-endpoint: oss-cn-hangzhou.aliyuncs.com
           # Path to location you wish to deploy files to, e.g. oss://my-bucket/my-dir
-          oss-path: oss://mfa-pages/
+          oss-path: oss://third-party-mfa/
           # Access Key ID of a Aliyun/Alibaba Cloud user with write access to OSS
           # It is recommended to use secrets provided by GitHub and reference by its
           # name in this field

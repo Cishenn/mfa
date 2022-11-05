@@ -8,4 +8,4 @@
 
 ## Built site
 
-View built sites at <https://mfa-preview.tree-diagram.site> (GitHub Pages) and <https://mfa.tree-diagram.site> (Aliyun OSS & Aliyun CDN).
+View built sites at <https://mfa-preview.tree-diagram.site> (GitHub Pages) and ~~<https://mfa.tree-diagram.site> (Aliyun OSS & Aliyun CDN)~~ (currently disabled).
